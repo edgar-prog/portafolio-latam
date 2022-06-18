@@ -1,0 +1,47 @@
+/*Sección About*/
+
+section.about{
+	background: yellow;
+}
+
+.about__container {
+	padding: 2rem 4rem;
+	/* display: flex;
+	flex-direction: column; */
+}
+
+.about__title {
+	font-weight: 700;
+	font-size: 1.90rem;
+	padding-left: 1rem;
+}
+
+.about__paragraph {
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.75rem;
+	text-align: justify;
+	padding: 1rem 25rem 1rem 1rem;
+}
+
+.about__img--sign {
+	padding-left: 1rem;
+	width: 140px;
+	height: 52px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

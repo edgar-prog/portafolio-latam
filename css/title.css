@@ -1,0 +1,66 @@
+/*Sección Title*/
+
+section.title{
+	background: red;
+	margin: 2rem 2 rem;
+}
+
+
+.title__div {
+	display: flex;
+	padding: 2rem 4rem;
+	flex-direction: row-reverse;
+}
+
+.title__profile{
+	padding: 1rem;
+	width: 30%;
+}
+
+.title__container {
+	padding: 4rem 0;
+}
+
+.title__bio {
+	font-weight: 700;
+	font-size: 2.5rem;
+	padding-left: 1rem;
+	/* margin: 1.5rem; */
+}
+
+.title__subsection {
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin: 1.5rem;
+}
+
+.title__network {
+	margin: 1.5rem;
+}
+
+.title__network__item {
+	font-weight: 500;
+	font-size: 1rem;
+	padding-top: 1.25rem;
+	padding-right: 1.25rem;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

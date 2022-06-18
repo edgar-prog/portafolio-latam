@@ -1,0 +1,42 @@
+/*Sección Menu*/
+
+section.menu{
+	background:green;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 1rem 0;
+}
+
+.menu__header {
+	display: flex;
+}
+
+
+.memu_img--logo {
+	max-height: 30%;
+	padding: 1rem 0rem 1rem 0rem;
+	margin: auto;
+}
+
+.menu__title {
+	width: 15rem;
+	font-size: 1rem;
+	margin: auto;
+}
+
+.menu__nav {
+	padding: 1rem;
+	text-align: right;
+}
+
+.menu__list {
+	
+}
+
+.menu__list__item {
+	font-size: 1rem;
+    display: inline-block;
+    margin-right: 0.7rem;
+    margin-bottom: 0.7rem;
+    margin-left: 0.7rem;
+}
