@@ -75,7 +75,19 @@ section.academic {
 	
 	
 @media screen and (min-width: 768px) {	
-
+	section.academic {
+		padding: 0 2rem 0 2rem;
+	}
+	
+	.academic__courses {
+		flex-direction: row;
+		gap: 2rem;
+	}
+	
+	.academic__courses__item__img {
+		height: auto;
+		width: 12rem;
+	}
 }	
 
 

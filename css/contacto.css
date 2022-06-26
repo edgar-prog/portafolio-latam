@@ -101,7 +101,17 @@ label:focus-within > span, input:not(:placeholder-shown) + span{
 	
 	
 @media screen and (min-width: 768px) {	
-
+	section.formcontato {
+		padding: 0px 2rem 0 2rem;
+	}
+	
+	.formcontato--esquerda {
+		display: none;
+	}
+	
+	.formcontato__title {
+		font-size: 2rem;
+	}
 }	
 
 

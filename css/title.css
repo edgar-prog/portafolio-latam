@@ -73,7 +73,19 @@ section.title{
 }
 
 @media screen and (min-width: 768px) {	
-
+	section.title{
+		padding: 0 2rem 0 2rem;
+	}
+	
+	.title__div {
+		flex-direction: row-reverse;
+	}
+	
+	.title__profile{
+		padding-top : 1rem;
+		max-width: 30%;
+		max-height: auto;
+	}
 }
 
 

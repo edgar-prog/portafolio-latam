@@ -13,7 +13,7 @@ section.hobbies {
 
 .hobbies__line {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	padding: 1rem 0 1rem 0;	
 }
 
@@ -49,13 +49,21 @@ section.hobbies {
 	.hobbies__line {
 		row-gap: 1rem;
 		flex-wrap: wrap;
+		justify-content: space-evenly;
 		padding: 1rem 0 1rem 0;			
 	}
 }	
 	
 	
 @media screen and (min-width: 768px) {	
-
+	section.hobbies {
+		padding: 0 2rem 0 2rem;
+	}
+	
+	.hobbies__box {
+		width: 14rem;
+	}	
+	
 }	
 
 

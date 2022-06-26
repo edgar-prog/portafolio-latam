@@ -24,13 +24,14 @@ section.footer {
 	section.footer {
 		padding: 0 1rem 0 1rem;
 	}
-	
-	
+
 }	
 	
 	
 @media screen and (min-width: 768px) {	
-
+	section.footer {
+		padding: 0 2rem 0 2rem;
+	}
 }	
 
 

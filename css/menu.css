@@ -68,15 +68,33 @@ section.menu{
 @media screen and (min-width: 768px) {
 	
 	section.menu{
-		padding: 0 1rem 0 1rem;
+		padding: 0 2rem 0 2rem;
+	}
+
+	.menu__header {
+		flex-grow: 1;
 	}
 	
+	.menu__nav {
+		flex-grow: 1;
+		display: flex;
+	}	
+	
 	.menu__list {
-		display: none;
+		display: flex;
+	}
+	
+	.menu__title {
+		font-size: 0.75rem;
+	}
+	
+	.menu__list__item {
+		padding: 1rem 0 1rem 1rem;	
+		font-size: 0.75rem;
 	}
 	
 	.menu__list__item__contato {
-		display: block;
+		display: none;
 	}
 }
 

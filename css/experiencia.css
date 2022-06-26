@@ -120,7 +120,10 @@ section.experience {
 }	
 	
 	
-@media screen and (min-width: 768px) {	
+@media screen and (min-width: 768px) {
+	section.experience {
+		padding: 0 2rem 0 2rem;
+	}
 	
 }
 
