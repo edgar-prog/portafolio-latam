@@ -41,7 +41,22 @@ section.hobbies {
 	font-size: 1rem;	
 }
 
+@media screen and (min-width: 0) {
+	section.hobbies {
+		padding: 0 1rem 0 1rem;
+	}
 
+	.hobbies__line {
+		row-gap: 1rem;
+		flex-wrap: wrap;
+		padding: 1rem 0 1rem 0;			
+	}
+}	
+	
+	
+@media screen and (min-width: 768px) {	
+
+}	
 
 
 

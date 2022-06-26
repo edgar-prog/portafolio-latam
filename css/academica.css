@@ -52,7 +52,31 @@ section.academic {
 	text-align: left;
 }
 
+@media screen and (min-width: 0) {
+	section.academic {
+		padding: 0 1rem 0 1rem;
+	}
+	
+	.academic__courses {
+		flex-direction: column;
+		gap: 2rem;
+	}
 
+	.academic__courses__item__img {
+		background: white;
+		display:flex;
+		align-items: center;
+	}
+	
+	.academic__courses__item__logo {
+		height: 50%;
+	}
+}	
+	
+	
+@media screen and (min-width: 768px) {	
+
+}	
 
 
 

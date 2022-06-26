@@ -4,7 +4,6 @@ section.title{
 	padding: 0 5rem 0 5rem;
 }
 
-
 .title__div {
 	display: flex;
 	flex-direction: row-reverse;
@@ -12,7 +11,6 @@ section.title{
 
 .title__profile{
 	padding: 0.2rem;
-	
 }
 
 .title__container {
@@ -44,9 +42,39 @@ section.title{
 }
 
 
+@media screen and (min-width: 0) { 
+	section.title{
+		padding: 0 1rem 0 1rem;
+	}
+	
+	.title__div {
+		flex-direction: column;
+	}
+	
+	.title__container {
+		padding: 1rem 0;
+	}
+	
+	.title__profile{
+		padding-top : 1rem;
+		max-width: 40%;
+		max-height: auto;
+	}
+	
+	.title__bio {
+		font-size: 1.5rem;
+	}
+	
+	.title__network__item {
+		font-size: 0.75rem;
+		padding-right: 1rem;
+	}	
+	
+}
 
+@media screen and (min-width: 768px) {	
 
-
+}
 
 
 

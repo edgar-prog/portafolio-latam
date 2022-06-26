@@ -89,7 +89,20 @@ label:focus-within > span, input:not(:placeholder-shown) + span{
 	background-color: DodgerBlue;
 }
 
+@media screen and (min-width: 0) {
+	section.formcontato {
+		padding: 0px 1rem 0 1rem;
+	}
+	
+	.formcontato--esquerda {
+		display: none;
+	}
+}	
+	
+	
+@media screen and (min-width: 768px) {	
 
+}	
 
 
 

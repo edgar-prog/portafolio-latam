@@ -29,9 +29,28 @@ section.about{
 	height: 52px;
 }
 
+@media screen and (min-width: 0) { 
+	section.about{
+		padding: 0 1rem 0 1rem;
+	}
+	
+	.about__title {
+		padding-left: 0rem;
+	}
+	
+	.about__paragraph {
+		padding: 1rem 0 1rem 0;
+	}
+	
+	.about__img--sign {
+		padding-left: 0;
+	}
+	
+}
 
+@media screen and (min-width: 768px) {	
 
-
+}
 
 
 
