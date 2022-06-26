@@ -1,0 +1,98 @@
+
+section.formcontato {
+	padding: 0px 5rem 0 5rem;
+	background: #EAF2FD;
+}
+
+.formcontato__contacto {
+	display: flex;
+}
+
+.formcontato--esquerda {
+	width: 40%;
+	margin: 2rem;
+	align-items: center;
+}
+
+.formcontato__img {
+	width: 70%;
+	transform: translate(25%, 25%);
+}
+
+.formcontato__text {
+	margin: 1rem;
+}
+
+.formcontato__title {
+	font-size: 2.5rem;
+	padding: 1rem 0 1rem 0;
+}
+
+.formcontato__subtext {
+	color: #C2C1C1;
+	padding-top: 0.5rem;
+}
+
+.formcontato__form {
+	padding: 1rem 3rem 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 1rem;
+	position: relative;
+    border-bottom: 1px solid #ddd;
+}
+
+input{
+    width: 99%;
+	padding:10px 0px 0px 5px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+
+input::placeholder{
+    opacity: 0;
+	
+}
+
+.form__spam {
+	color: #C2C1C1;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(30px);
+    font-size: 0.825em;
+    transition-duration: 300ms;
+}
+
+label:focus-within > span, input:not(:placeholder-shown) + span{
+    color: #000000;
+    transform:translateY(0px);
+}
+
+.formcontato__textarea {
+	padding-left: 5px;
+	border: none;
+    outline: none;
+}
+
+.formcontato__btn {
+    margin: 0.5rem 0;
+    width: 150px;
+    padding: 0.75rem;
+	height: 40px;
+	border: none;
+	color: white;
+	background-color: DodgerBlue;
+}
+
+
+
+
+
+
+
+

@@ -1,5 +1,6 @@
 
 section.hobbies {
+	padding: 0 5rem 0 5rem;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -18,8 +19,8 @@ section.hobbies {
 
 .hobbies__box {
 	background: white;
-	width: 12rem;
-	height: 12rem;
+	width: 8rem;
+	height: 8rem;
 	display: flex;
 	justify-content: flex-start;	
 }

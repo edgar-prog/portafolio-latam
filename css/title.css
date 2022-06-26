@@ -1,20 +1,18 @@
 /*Sección Title*/
 
 section.title{
-	background: #EC918A;
-	margin: 2rem 2 rem;
+	padding: 0 5rem 0 5rem;
 }
 
 
 .title__div {
 	display: flex;
-	padding: 2rem 4rem;
 	flex-direction: row-reverse;
 }
 
 .title__profile{
-	padding: 1rem;
-	width: 30%;
+	padding: 0.2rem;
+	
 }
 
 .title__container {
@@ -23,20 +21,18 @@ section.title{
 
 .title__bio {
 	font-weight: 700;
-	font-size: 2.5rem;
-	padding-left: 1rem;
-	/* margin: 1.5rem; */
+	font-size: 3rem;
 }
 
 .title__subsection {
 	font-weight: 400;
 	font-size: 1rem;
 	line-height: 1.5rem;
-	margin: 1.5rem;
+	margin: 1.5rem 1.5rem 0 0;
 }
 
 .title__network {
-	margin: 1.5rem;
+	margin-top: 1rem;
 }
 
 .title__network__item {

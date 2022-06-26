@@ -1,0 +1,93 @@
+
+section.experience {
+	text-align: center;
+	padding: 0 5rem 0 5rem;
+}
+
+.experience__section__title {
+	font-size: 2.5rem;
+	padding: 1rem 0 1rem 0;
+}
+
+.experiencie__box:nth-child(odd) {
+	display: flex;
+	margin: 3rem 0 3rem 0rem;
+	justify-content: space-between;
+}
+
+.experiencie__box:nth-child(even) {
+	display: flex;
+	margin: 3rem 0 3rem 0rem;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+}
+
+.experience__img {
+	width: 60%;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #6a5959;
+}
+
+.experience__info-container {
+	display: flex;
+	width: 35%;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.experience__title {
+	font-size: 1.1rem;
+}
+
+.experience__text {
+	color: #C2C1C1;
+	font-size: 1rem;
+	padding-top: 0.5rem;
+}
+
+.experience__description {
+	display: flex;
+}
+
+.experience__repo {
+	
+}
+
+.experiencia__btn--repo {
+	margin: 0.5rem 0.5rem 0 0;
+	height: 40px;
+	width: 115px;
+	border-style: solid;
+	border-color: DodgerBlue;
+	color: DodgerBlue;
+}
+
+.experience__demo {
+	
+}
+
+.experience__btn--demo {
+	margin-top: 0.5rem;
+	height: 40px;
+	width: 115px;
+	border: none;
+	color: white;
+	background-color: DodgerBlue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

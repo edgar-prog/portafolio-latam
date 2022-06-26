@@ -1,0 +1,21 @@
+
+section.footer {
+	background: white;
+	color: #FFFFFF;
+	padding: 0 5rem 0 5rem;
+	height: 5rem;
+}
+
+.footer__rodape {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.footer__rodape p {
+	color: #000000;
+	font-weight: 500;
+	margin-top: 1rem;
+}
