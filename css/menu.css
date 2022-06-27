@@ -1,63 +1,70 @@
 /*Sección Menu*/
 
-section.menu{
+.menu{
 	display: flex;
-	height: 5rem;
-	align-items: center;
+	justify-content: space-between;
 }
 
 .menu__header {
-	flex-grow: 1;
-	height: 3rem;
 	display: flex;
-}
-
-.menu__nav {
-	flex-grow: 1;
 	height: 3rem;
 }
 
 .memu_img--logo {
-	max-height: 50%;
-	padding: 1rem 0 1rem 0;
+	max-width:50%;
+	max-height:50%;
+	padding: 1rem 0.5rem 1rem 0;
 }
 
 .menu__title {
-	padding: 1rem 0 1rem 0.3rem;
-	font-size: 1rem;
-	text-shadow: 2px 2px 5px #999999;
+	padding: 1rem 0 1rem 0;
+	font-weight: bolder;
+	text-shadow: 3px 3px 1px #aaa;;
+}
+
+.menu__nav {
+	
 }
 
 .menu__list {
-	justify-content: flex-end;
+	
 }
 
 .menu__list__item {
-	padding: 1rem 0 1rem 2rem;	
-	font-size: 1rem;
-}
-
-.menu__list__item:hover {
-	text-decoration: underline;
+	display: inline;
+	padding-left: 1rem;
 }
 
 .menu__list__item:last-child {
-	font-weight: bold;
+	font-weight: bolder;
+}
+
+.menu__list__item__contato {
+	padding: 1rem 0 1rem 0;
+	font-weight: bolder;
 }
 
 @media screen and (min-width: 0px) {
-	section.menu{
+	.menu {
 		padding: 0 1rem 0 1rem;
-		width: 100%;
-	}
-	
-	.menu__nav {
-		display: flex;
-		align-items: center;
 	}
 	
 	.menu__list {
-		display:none;
+		display: none;
+	}
+	
+	.menu__list__item__contato {
+		display: block;
+	}
+}	
+
+@media screen and (min-width: 768px) {
+	.menu{
+		padding: 0 2rem 0 2rem;
+	}
+	
+	.menu__list {
+		display: none;
 	}
 	
 	.menu__list__item__contato {
@@ -65,46 +72,14 @@ section.menu{
 	}
 }
 
-@media screen and (min-width: 768px) {
-	
-	section.menu{
-		padding: 0 2rem 0 2rem;
-	}
-
-	.menu__header {
-		flex-grow: 1;
-	}
-	
-	.menu__nav {
-		flex-grow: 1;
-		display: flex;
-	}	
-	
-	.menu__list {
-		display: flex;
-	}
-	
-	.menu__title {
-		font-size: 0.75rem;
-	}
-	
-	.menu__list__item {
-		padding: 1rem 0 1rem 1rem;	
-		font-size: 0.75rem;
-	}
-	
-	.menu__list__item__contato {
-		display: none;
-	}
-}
-
 @media screen and (min-width: 992px) {
-	section.menu{
+	.menu{
 		padding: 0 5rem 0 5rem;
 	}
 	
 	.menu__list {
-		display: flex;
+		display: block;
+		padding: 1rem 0 1rem 0rem;
 	}
 	
 	.menu__list__item__contato {

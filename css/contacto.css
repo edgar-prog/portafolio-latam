@@ -1,22 +1,10 @@
 
 section.formcontato {
-	padding: 0px 5rem 0 5rem;
 	background: #EAF2FD;
 }
 
 .formcontato__contacto {
 	display: flex;
-}
-
-.formcontato--esquerda {
-	width: 40%;
-	margin: 2rem;
-	align-items: center;
-}
-
-.formcontato__img {
-	width: 70%;
-	transform: translate(25%, 25%);
 }
 
 .formcontato__text {
@@ -34,8 +22,7 @@ section.formcontato {
 }
 
 .formcontato__form {
-	padding: 1rem 3rem 0 0;
-    display: flex;
+	display: flex;
     flex-direction: column;
 }
 
@@ -114,7 +101,26 @@ label:focus-within > span, input:not(:placeholder-shown) + span{
 	}
 }	
 
-
+@media screen and (min-width: 992px) {
+	section.formcontato {
+		padding: 0px 5rem 0 5rem;
+	}
+	
+	.formcontato--esquerda {
+		display: block;
+		width: 40%;
+		margin: 2rem;
+		align-items: center;
+	}
+	
+	.formcontato__img {
+		/* width: 60%;
+		transform: translate(30%, 10%); */
+		width: 90%;
+		height: auto;
+		object-fit: cover;
+	}
+}
 
 
 

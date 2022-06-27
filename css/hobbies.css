@@ -1,6 +1,5 @@
 
 section.hobbies {
-	padding: 0 5rem 0 5rem;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -13,14 +12,12 @@ section.hobbies {
 
 .hobbies__line {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	padding: 1rem 0 1rem 0;	
 }
 
 .hobbies__box {
 	background: white;
-	width: 8rem;
-	height: 8rem;
 	display: flex;
 	justify-content: flex-start;	
 }
@@ -52,6 +49,11 @@ section.hobbies {
 		justify-content: space-evenly;
 		padding: 1rem 0 1rem 0;			
 	}
+	
+	.hobbies__box {
+		width: 8rem;
+		height: 8rem;	
+	}
 }	
 	
 	
@@ -61,15 +63,22 @@ section.hobbies {
 	}
 	
 	.hobbies__box {
+		height: 8rem;
 		width: 14rem;
 	}	
 	
 }	
 
-
-
-
-
+@media screen and (min-width: 992px) {
+	section.hobbies {
+		padding: 0 5rem 0 5rem;
+	}
+	
+	.hobbies__box {
+		width: 8rem;
+		height: 8rem;	
+	}	
+}
 
 
 

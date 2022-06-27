@@ -1,8 +1,5 @@
 /*Sección Title*/
 
-section.title{
-	padding: 0 5rem 0 5rem;
-}
 
 .title__div {
 	display: flex;
@@ -11,10 +8,6 @@ section.title{
 
 .title__profile{
 	padding: 0.2rem;
-}
-
-.title__container {
-	padding: 4rem 0;
 }
 
 .title__bio {
@@ -88,7 +81,15 @@ section.title{
 	}
 }
 
-
+@media screen and (min-width: 992px) {
+	section.title {
+		padding: 0 5rem 0 5rem;
+	}
+	
+	.title__container {
+		padding: 4rem 0;
+	}
+}
 
 
 
