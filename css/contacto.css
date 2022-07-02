@@ -1,6 +1,6 @@
 
 section.formcontato {
-	background: #EAF2FD;
+	background: var(--cor-de-zone);
 }
 
 .formcontato__contacto {
@@ -17,8 +17,8 @@ section.formcontato {
 }
 
 .formcontato__subtext {
-	color: #C2C1C1;
-	padding-top: 0.5rem;
+	color: var(--cor-de-font);
+	padding-bottom: 1rem;
 }
 
 .formcontato__form {
@@ -67,14 +67,28 @@ label:focus-within > span, input:not(:placeholder-shown) + span{
 }
 
 .formcontato__btn {
-    margin: 0.5rem 0;
-    width: 150px;
-    padding: 0.75rem;
-	height: 40px;
-	border: none;
-	color: white;
-	background-color: DodgerBlue;
+	margin-top: 1rem;
+    background: #1e1e23;
+	background: linear-gradient(#1e1e23, #3584cd);
+	border: 5px solid #09267e;
+	border-radius: 1000px;
+	box-shadow: 0 1px #444444;
+	width: 160px;
+	height: 50px;
+	color: #ffffff;
+	display: inline-block;
+	text-align: center;
 }
+
+.formcontato__btn:hover {
+	background-color: #003153;
+	transform: scale(1.1);
+}
+
+
+
+
+
 
 @media screen and (min-width: 0) {
 	section.formcontato {
@@ -121,7 +135,5 @@ label:focus-within > span, input:not(:placeholder-shown) + span{
 		object-fit: cover;
 	}
 }
-
-
 
 

@@ -1,7 +1,7 @@
 /*Sección About*/
 
 section.about{
-	background: #EAF2FD;
+	background: var(--cor-de-zone);
 }
 
 .about__container {
@@ -10,7 +10,7 @@ section.about{
 
 .about__title {
 	font-weight: 700;
-	font-size: 1.90rem;
+	font-size: 2rem;
 	padding-left: 1rem;
 }
 

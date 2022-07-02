@@ -1,30 +1,32 @@
 
 section.footer {
-	background: white;
-	color: #FFFFFF;
-	padding: 0 5rem 0 5rem;
+	background: var(--cor-de-footer);
+	color: #FFF;
 	height: 5rem;
 }
 
 .footer__rodape {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
+	padding-top: 1rem;
 }
 
 
 .footer__rodape p {
-	color: #000000;
+	color: #000;
 	font-weight: 500;
-	margin-top: 1rem;
+}
+
+.footer__network {
+	display: contents;
+	margin: 0 1rem 0 1rem;
 }
 
 @media screen and (min-width: 0) {
 	section.footer {
 		padding: 0 1rem 0 1rem;
 	}
-
 }	
 	
 	
@@ -34,7 +36,11 @@ section.footer {
 	}
 }	
 
-
+@media screen and (min-width: 768px) {
+	section.footer {
+		padding: 0 5rem 0 5rem;
+	}
+}
 
 
 
